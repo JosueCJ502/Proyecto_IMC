@@ -166,25 +166,8 @@ namespace PROYECTO
         // ***************** BOTON LIMPIAR -------------------------------
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
-            txtNombre.Clear();
-            txtAlias.Clear();
-            txtEdad.Clear();
-            txtResultado.Clear();
-            txtPeso.Clear();
-            txtAltura.Clear();
-            lblRecomendacion.Visible = false;
-            lblResultado.Visible = false;
-            lblRes.Visible = false;
-            imgAtencion.Visible = false;
-            imgBP.Visible = false;
-            imgPN.Visible = false;
-            imgSP.Visible = false;
-            btnBP.Visible = false;
-            btnPN.Visible = false;
-            btnSP.Visible = false;
-            txtResultado.Visible = false;
-            imgOb.Visible = false;
-            btnOb.Visible = false;
+            //datos
+  
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
